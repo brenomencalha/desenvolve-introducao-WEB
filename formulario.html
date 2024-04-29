@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Pesquisa de Satisfação</h1>
+    <h2>Dados pessoais</h2>
+    <form action="#" method="post">
+
+        <p>
+            <label for="nome-do-cliente">Nome completo:</label>
+            <input type="text" name="nome" id="nome-do-cliente" placeholder="Nome completo">
+        </p>
+        
+        <p>
+            <label for="email">E-mail:</label>
+            <input type="email" name="e-mail" id="email" placeholder="Digite seu e-mail">
+        </p>
+
+        <p>
+            <label for="tel">Telefone:</label>
+            <input type="tel" name="telefone" id="tel" placeholder="Telefone para contato">
+        </p>
+
+        <h2>Pesquisa:</h2>
+        <h3>Nossos serviços atenderam suas expectativas?</h3>
+            <p>
+                <input type="radio" id="yes" name="satisfacao-cliente">
+                <label for="yes">Sim</label>
+                <input type="radio" id="no" name="satisfacao-cliente">
+                <label for="no">Não</label>
+            </p>
+        
+        <h3>Seu problema foi resolvido pela nossa equipe?</h3>
+            <p>
+                <input type="radio" id="yes" name="problema-resolvido">
+                <label for="yes">Sim</label>
+                <input type="radio" name="problema-resolvido" id="no">
+                <label for="no">Não</label>
+            </p>
+
+        <h3>Qual é a chance de indicar nossos serviços?</h3>
+        <h4>(Quanto mais próximo do 1 significa que a chance é menor de indicar nossos serviços, ao passo que quanto mais próximo
+            do 5 a chance de indicar nossos serviços é maior) </h4>
+            <p>
+               <select name="indicacao" id="indicacao-servicos">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+               </select> 
+            </p>
+            <p>
+                <input type="checkbox" id="termo">
+                <label for="termo">Autorizo compartilhar minhas informações com terceiros.</label>
+            </p>
+            <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
