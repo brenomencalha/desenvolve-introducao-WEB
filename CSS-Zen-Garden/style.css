@@ -1,10 +1,50 @@
-/* geral */
+/* Aspectos Gerais */
 
 * {
     background-color: #F2E7DC;
     color: #0D0000;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+p {
+    text-indent: 1em;
+}
+
+/* Títulos */
+
+h1 {
+    text-align: center;
+    font-size: 1.8rem;
 }
 
 h1:hover {
-    color:#F24405;
+    color:#F2955E;
 }
+
+h2 {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+h3 {
+    text-align:center;
+    font-size: 1.2rem;
+}
+
+/* Seção de Resumo e Principal */
+
+.summary {
+    text-align: center;
+}
+
+.main p {
+    line-height: 1.5;
+}
+
+/* Abreviaturas */
+
+abbr {
+    font-variant: small-caps;
+}
+
