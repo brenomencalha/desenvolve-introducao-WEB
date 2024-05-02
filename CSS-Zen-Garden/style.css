@@ -1,0 +1,10 @@
+/* geral */
+
+* {
+    background-color: #F2E7DC;
+    color: #0D0000;
+}
+
+h1:hover {
+    color:#F24405;
+}
