@@ -1,0 +1,38 @@
+    /*Fundamentos CSS*/
+
+    * {
+        font-family:serif;
+        }
+
+    a {
+        color:red;
+       }
+
+    a:hover {
+        color: lime;
+       }
+
+    p {
+        font-family: arial;
+    }
+
+    h1 + p {
+        font-weight: 700;
+       }
+    
+    .destaque {
+        font-family: arial;
+    }
+       
+    li.destaque {
+        font-family: Arial;
+        list-style: none;
+    }
+
+    p.destaque{
+        font-weight: 700;
+    }
+
+    strong.destaque {
+        color: red;
+    }
