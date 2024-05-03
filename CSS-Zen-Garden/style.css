@@ -88,7 +88,7 @@ aside ul li {
 }
 
 .main footer a {
-    border: solid 2px #F24405;
+    border: solid 2px #0D0000;
     padding: 0.5em;
     display: inline-block;
 }
@@ -109,7 +109,7 @@ aside ul li {
 
 #design-selection {
     position: absolute;
-    top: 520px;
+    top: 480px;
     left: 62%;
     padding-left: 1%;
     padding-right: 1%;
@@ -151,4 +151,32 @@ aside ul li {
 
 .participation h3 {
     align-self: center;
+}
+
+/* Pseudo classes */
+
+a {
+    color:#F24405;
+    font-weight: 600;
+}
+
+a:hover {
+    color:#F2955E;
+    font-weight: 300;
+}
+
+.main p:first-of-type::first-letter {
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+}
+
+.design-selection li {
+    border-top: #F24405 solid 1px;
+    padding-top: 5px;
+}
+
+.design-selection li:last-of-type {
+    border-bottom: #F24405 solid 1px;
+    padding-bottom: 5px;
 }
