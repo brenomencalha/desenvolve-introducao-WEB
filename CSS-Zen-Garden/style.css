@@ -92,3 +92,26 @@ aside ul li {
     padding: 0.5em;
     display: inline-block;
 }
+
+/* Posicionamento */
+
+/* âncora/referência para os demais elementos da página  - requisito para o position:absolute*/
+.page-wrapper {
+    position: relative;
+}
+
+.explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: #F24405 solid 1px;
+    padding-right: 2%;
+}
+
+#design-selection {
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding-left: 1%;
+    padding-right: 1%;
+
+}
