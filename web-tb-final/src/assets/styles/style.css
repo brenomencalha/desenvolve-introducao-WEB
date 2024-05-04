@@ -1,0 +1,226 @@
+/* Geral */
+
+ body {
+    font-family: 'PT Sans', arial, sans-serif;
+    font-size: 14px;
+    max-width: 1280px;
+    margin-top: 5%;
+    background-color: #262626;
+    color: white;
+}
+
+h1 {
+    font-size: 2em
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 0.8em;
+}
+
+p {
+    font-size: 1em;
+}
+
+h2:hover {
+    display: inline-block;
+    color:#BF3F3F;
+    text-decoration: none;
+    border-bottom: #BF3F3F solid 2px;
+    padding-bottom: 3px;
+    transition: 0.5s;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #262626;
+    height: 5%;
+    margin: 0;
+}
+
+.nav-link {
+    color:#A4A69C;
+}
+
+.nav-link:hover{
+    color:#BF3F3F;
+    border-bottom: #BF3F3F solid 1px;
+    padding-bottom: 0px;
+    transition: 0.5s;
+}
+
+/* Cabeçalho */
+
+section {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+header {
+    padding: 2%;
+}
+
+.data-person {
+    width: 100%;
+    padding: 10%;
+    color:#A4A69C;
+}
+
+.data-person h1:hover {
+    color:#BF3F3F;
+    transition: 0.9s;
+}
+
+.about-me{
+    display: block;
+    width: 60%;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: auto;
+    color: #A4A69C;
+}
+
+.about-me p:hover {
+    color: #BF3F3F;
+    transition: 0.9s;
+}
+
+.about-me h2 {
+    margin-bottom: 30px;
+}
+
+/* education main */
+
+.education-main {
+    background-color:#404040;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+
+.education-main h2 {
+    margin-bottom: 3%;
+    color:#F24738;
+}
+
+.education-main i {
+    font-size: 50px;
+    color: #F24738;
+}
+
+.education-main i:hover{
+    color:#BF3F3F;
+}
+
+.education-main .edu-flex {
+    display: flex;
+    flex-basis: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    color: #F24738;
+}
+
+.first-formation {
+    background-color: #262626;
+    padding: 5%;
+    margin:10px;
+}
+
+.first-formation:hover {
+    color: #BF3F3F;
+    transition: 0.9s;
+}
+
+.second-formation {
+    background-color: #262626;
+    padding: 8%;
+    margin: 10px;
+}
+
+.second-formation:hover {
+    color:#BF3F3F;
+    transition: 0.9s;
+}
+
+.pos-graduation {
+    background-color: #262626;
+    padding: 5%;
+    margin: 10px;
+    transition: 0.9s;
+}
+
+.pos-graduation:hover {
+    color: #BF3F3F;
+}
+
+
+/* Certificação */
+
+.certification-main {
+    margin-top: 3%;
+    padding-top: 3%;
+    text-align: center;
+    color: #F24738;
+
+}
+
+.certification {
+    padding-bottom: 3%;
+}
+
+.certification i {
+    font-size: 50px;
+    color: #F24738;
+}
+
+.certification i:hover{
+    color: #BF3F3F;
+}
+
+.card {
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-body {
+    background-color:#404040;
+    color:#F24738;
+}
+
+.card-body .card-title{
+    font-weight: 500;
+}
+
+.card-body .card-subtitle {
+    font-size: 12px;
+    padding: 2px 0 2px 0;
+}
+
+.card-body .card-text {
+    padding-bottom: 4px;
+}
+
+.card .card-title:hover{
+    color:#BF3F3F;
+    display: inline-block;
+    border-bottom: #BF3F3F solid 1px;
+    padding-bottom: 3px;
+    transition: 0.6s;
+}

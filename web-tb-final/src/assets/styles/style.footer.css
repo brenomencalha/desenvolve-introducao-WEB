@@ -1,0 +1,38 @@
+footer {
+    display:inline-block;
+    border-top: #F24738 solid 1px;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+footer li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer i {
+    color:#F24738;
+}
+
+footer i:hover {
+    color:#404040;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    margin-left: 38px;
+    font-size: x-small;
+    color: #F24738;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 5px;
+}
+

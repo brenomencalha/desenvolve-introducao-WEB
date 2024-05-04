@@ -1,0 +1,61 @@
+
+.end {
+    margin-top: 3%;
+    padding-top: 5%;
+}
+
+.experience-main {
+    padding: 10px 50px 10px 0;
+    border-right: #F24738 solid 1px;
+    color: #A4A69C;
+}
+
+.experience-main .exp-professional {
+    line-height: 10px;
+    text-align: center;
+}
+
+.exp-professional h2 {
+    margin-bottom: 20px;
+}
+
+.exp-professional h3 {
+    margin-bottom: 20px;
+}
+
+.exp-professional h3:hover {
+    border-bottom: #F24738 solid 1px;
+    padding: 2px;
+    transition: 0.9s;
+}
+
+.exp-professional p:hover {
+    color:#F24738;
+    transition: 0.9s;
+}
+
+.exp-professional p {
+    line-height: 20px;
+}
+
+.skills-main {
+    line-height: 30px;
+    text-align: center;
+    padding: 10px 0px 10px 30px;
+    margin-left: 50px;
+    margin-right: 40px;
+    color:#A4A69C;
+}
+
+.technical-abilities li{
+    list-style: none;
+    text-align:justify;
+}
+
+.technical-abilities i {
+    color:#F24738;
+}
+
+.technical-abilities i:hover{
+   color: #BF3F3F;
+}
